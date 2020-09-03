@@ -1,9 +1,6 @@
 name: Publish And Deploy Demo # 自动部署的名称
 on:
-  push:
-    tags:
-      - 'v*'
-
+  push
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest # 运行环境，告诉它运行在什么环境 我们选择使用最新的ubuntu系统
