@@ -1,0 +1,9 @@
+{
+  "apps": [
+    {
+      "name": "zhcs",
+      "script": "npm",
+      "args": "build"
+    }
+  ]
+}
