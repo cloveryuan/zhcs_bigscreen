@@ -1,5 +1,9 @@
 # zhcs_bigscreen
 
+预览地址，这里部署是正好学习下github的getpage，可以再action下看到部署log
+- https://cloveryuan.github.io/zhcs_bigscreen/#/three
+- https://cloveryuan.github.io/zhcs_bigscreen/
+
 ## Project setup
 ```
 yarn install
