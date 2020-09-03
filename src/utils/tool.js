@@ -1,6 +1,6 @@
 export const getArrByKey = (data, k) => {
   const key = k || 'value'
-  const res = []// 得到所有key
+  const res = []// 得到所有的key
   if (Array.isArray(data)) {
     data.forEach(function(t) {
       res.push(t[key])
