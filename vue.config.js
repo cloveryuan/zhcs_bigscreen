@@ -4,7 +4,9 @@ function resolve(dir) {
   return path.join(__dirname, dir)
 }
 module.exports = {
-  publicPath: '/',
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/zhcs_bigscreen/'
+    : '/',
   outputDir: 'dist',
   lintOnSave: process.env.NODE_ENV === 'development',
   productionSourceMap: false,
