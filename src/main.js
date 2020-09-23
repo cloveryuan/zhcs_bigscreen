@@ -4,6 +4,7 @@ import router from './router'
 import echarts from 'echarts'
 import 'echarts-liquidfill'
 import 'echarts-gl'
+
 import Element from 'element-ui'
 import './assets/style/index.scss'
 import 'element-ui/lib/theme-chalk/index.css'
